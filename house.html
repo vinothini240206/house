@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> house </title>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width , initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+</head>
+<body>
+	<style type="text/css">
+		*{
+			padding: 0;
+			margin: 0;
+			box-sizing: border-box;
+		}
+
+		body {
+			background-color: skyblue;
+		}
+
+		
+
+		.front {
+			position: absolute;
+			background-color: white;
+			width: 300px;
+			height: 300px;
+			clip-path: polygon(50% 0%, 100% 35%, 100% 100%, 0 100%, 0 35%);
+			top: 30%;
+			left: 35%;
+		}
+
+		.window {
+			position: fixed;
+			background-color: brown;
+
+			height: 75px;
+			width: 75px;
+			top: 50%;
+			left: 48%;
+		}
+
+		.window1{
+			width: 34px;
+			height: 34px;
+			background-color: yellow;
+			position: absolute;
+			top: 50%;
+			left: 48%;
+
+		}
+
+		.window2 {
+			width: 34px;
+			height: 34px;
+			background-color: yellow;
+			position: absolute;
+			top: 50%;
+			left: 51%;
+
+		}
+
+		.window3 {
+			width: 34px;
+			height: 34px;
+			background-color: yellow;
+			position: absolute;
+			top: 57%;
+			left: 48%;
+		}
+
+		.window4 {
+			width: 34px;
+			height: 34px;
+			background-color: yellow;
+			position: absolute;
+			top: 57%;
+			left: 51%;
+		}
+
+		.base {
+			position: fixed;
+			background-color: lightgreen;
+			width: 100%;
+			height: 22%;
+			margin-top: 35%;
+		}
+
+		.door {
+			width: 80px;
+			height: 180px;
+			position: absolute;
+			top: 48%;
+			left: 39%;
+			background-color: yellow;
+		}
+
+		.door .lock {
+			width: 13px;
+			height: 13px;
+			position: absolute;
+			background-color: white;
+			border-radius: 50%;
+			top: 50%;
+			left: 75%;
+		}
+
+		.roof1 {
+			position: absolute;
+			width:20px;
+			height: 204px;
+			background-color: red;
+			transform: rotate(55deg);
+			top:20%;
+			left: 39.8%;
+		}
+
+		.roof2 {
+			position: absolute;
+			width:20px;
+			height: 200px;
+			background-color: red;
+			transform: rotate(-55deg);
+			top:21%;
+			left:51%;
+		}
+	</style>
+	
+	<div class="house">
+		
+		<div class="roof1"></div>
+
+		<div class="roof2"></div>
+
+		<div class="front"></div>
+
+        <div class="door">
+         	
+         	<div class="lock"></div>
+
+        </div>
+
+		<div class="window1"></div>
+
+		<div class="window2"></div>
+
+		<div class="window3"></div>
+
+		<div class="window4"></div>
+		
+		<div class="base"></div>
+
+	</div>
+	
+</body>
+
+</html>
